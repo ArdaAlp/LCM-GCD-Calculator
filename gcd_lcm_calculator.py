@@ -28,7 +28,6 @@ def lcm(num1, num2):
         return lcm
     
     else:
-        temp = num2
         for i in range(1, num2 + 1):
             if (num2 % num1 == 0):
                 lcm = num2
